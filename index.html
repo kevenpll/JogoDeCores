@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação de Cores</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div id="color-background" class="color-background"></div>
+
+        <div class="game-card">
+            <header>
+                <h1>Adivinhe a Cor!</h1>
+                <p class="instructions">Tente adivinhar a cor sorteada em inglês.</p>
+            </header>
+
+            <div class="game-status">
+                <span id="attempts-display">Tentativas restantes: <strong id="attempts-count">3</strong></span>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="color-input" placeholder="Digite uma cor (ex: red)..." autocomplete="off">
+                <button id="guess-btn">Adivinhar</button>
+            </div>
+
+            <div id="feedback-message" class="message"></div>
+
+            <button id="restart-btn" class="hidden">Jogar Novamente</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
