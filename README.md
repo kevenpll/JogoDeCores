@@ -1,5 +1,5 @@
 # 🎨 Jogo de Adivinhação de Cores
-Link: **[Jogo de cores (Vercel)](https://jogo-de-cores-red.vercel.app/)** | **[Jogo de cores (GitHub Pages)](https://kevenpll.github.io/JogoDeCores/)**
+Link: **[Jogo de cores (GitHub Pages)](https://kevenpll.github.io/JogoDeCores/)**
 
 Um jogo interativo e divertido onde você deve adivinhar a cor sorteada! Desenvolvido com **Vite** e **JavaScript**.
 
